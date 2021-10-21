@@ -74,5 +74,5 @@ end.
 ```
 ## Блок-схема
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/40485432/138334759-24c493ac-e255-4ccc-81a8-5511ca6538f9.png" />
+  <img src="https://user-images.githubusercontent.com/40485432/138338618-93f107f1-ed25-458a-85ae-15ce022821b4.png"/>
 </p>
