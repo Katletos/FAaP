@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root text="Lab6" comment="" type="program" style="abbr">
+ <children>
+
+<instruction text="&#34;Çàïîëíåíèå ìàòðèöû&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;Âûâîä ìàòðèöû&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;MaxSum := abs(Arr[1, 1])&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;k := N - 1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<while text="&#34;k &#62;= -N + 1&#34;" comment="" color="FFFFFF">
+ <qWhile>
+
+<instruction text="&#34;Sum := 0&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;j := 1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<while text="&#34;j &#60;= N&#34;" comment="" color="FFFFFF">
+ <qWhile>
+
+<alternative text="&#34;(j - k &#62; 0) and (j - k &#60;= N)&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;Sum := Sum + abs(Arr[j - k, N - j + 1])&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+ </qFalse>
+</alternative>
+<instruction text="&#34;j := j + 1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qWhile>
+</while>
+<alternative text="&#34;Sum &#62; MaxSum&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;MaxSum := Sum&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+ </qFalse>
+</alternative>
+<instruction text="&#34;k := k - 1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qWhile>
+</while>
+<instruction text="&#34;Âûâîä MaxSum&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </children>
+</root>
