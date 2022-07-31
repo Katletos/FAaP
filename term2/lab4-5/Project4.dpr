@@ -894,9 +894,6 @@ var
   HeadInfType: pInfTypeElement;
   HeadProduct: pProductElement;
 
-  HeadSrchProduct: pInfTypeElement;
-  HeadSrchInfType: pProductElement;
-
   ProductFile: TProductFile;
   InfTypeFile: TInfTypeFile;
 
