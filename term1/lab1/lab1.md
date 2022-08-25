@@ -68,7 +68,7 @@
 |         x          | Текущее значение аргумента   |      extended      | -                 | `x := x + h`                                                                                                   |                         B, C                         |
 |         y          | Текущее значение функции     |      extended      | -                 | `abs(x - PI) * exp(x / 3) / ln(1.7 * sign * exp(1 / 3 * ln(abs(x))) + x * sign * exp(1 / 3 * ln(2 / abs(x))))` |                         B,C                          |
 |        sign        | Переменная знака             |      integer       | -                 | `sign := 1` или `sign := -1`                                                                                   |                         B, C                         |
-|         i          | Порядковый номер шага        |      integer       | 1                 | i:= i + 1                                                                                                      |                         B, C                         |
+|         i          | Порядковый номер шага        |      integer       | 1                 | `i:= i + 1`                                                                                                      |                         B, C                         |
 |      EPSILON       | Нужная точность              |      extended      | 0.00000001        | const                                                                                                          |                          -                           |
 
 ### Текст программы и его описание
